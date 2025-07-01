@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nature Quote</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #c2e59c, #64b3f4);
+            font-family: 'Segoe UI', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #2f855a;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 90vh;
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            margin-top: 20px;
+            color: #2f855a;
+        }
+        p {
+            font-style: italic;
+            margin-top: 10px;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="quote2.html">Next Quote</a>
+        <a href="https://www.nationalgeographic.com/" target="_blank">Explore Nature</a>
+    </nav>
+    <div class="container">
+        <a href="quote2.html">
+            <img src="1.jpg" alt="Nature">
+        </a>
+        <h1>Quote of the Day 🌿</h1>
+        <p>"Look deep into nature, and then you will understand everything better."<br><strong>– Albert Einstein</strong></p>
+    </div>
+</body>
+</html>
